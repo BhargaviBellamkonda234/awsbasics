@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+############
+# Author: Bhargavi
+# Date: MAr 1
+# Number of s's in Mississippi
+############
+
+x=mississippiss
+
+grep -o "s" <<< "$x" | wc -l
